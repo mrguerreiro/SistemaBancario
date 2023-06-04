@@ -9,7 +9,7 @@ numero_saques = 0
 limite_saques = 3
 
 while True:
-    opcao = int(input('Informe uma opção:\n[1] Sacar \n[2] Depositar \n[3] Extrato \n[4] Sair'))
+    opcao = int(input('Informe uma opção:\n[1] Sacar \n[2] Depositar \n[3] Extrato \n[4] Sair \n \n'))
 
     if opcao == 1:
         valor = float(input('Informe o valor do saque: '))
