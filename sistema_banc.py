@@ -15,7 +15,7 @@ while True:
         valor = float(input('Informe o valor do saque: '))
         
         excedeu_saldo = valor > saldo
-        excedeu_saque = numero_saques > 3
+        excedeu_saque = numero_saques >= limite_saques
         excedeu_limite = valor > limite
         
         
